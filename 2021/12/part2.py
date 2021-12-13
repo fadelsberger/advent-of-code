@@ -79,5 +79,4 @@ for line in inputData:
             paths[second] = [first]
 
 allPaths = nodeSearch(paths,"START","END")
-print(f"{allPaths}")
 print(f"{len(allPaths)}")
